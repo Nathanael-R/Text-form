@@ -9,14 +9,18 @@
 </head>
 <body>
     <div class="card">
+        <form class="card" method = "POST" enctype = "multipart/form-data">
         <h1>Fill Contact form below</h1>
         <div class="contact-field">
-            <input type="number" placeholder="Enter phone number or select from contacts" class="number-input"> <img src="address-book-solid.svg" alt="" srcset="" class="address-icon">
+            <input type="file" placeholder="Enter phone number or select from contacts" class="number-input"> <img src="address-book-solid.svg" alt="" srcset="" class="address-icon">
         </div>
             
         <input type="text" placeholder="Enter your message" class="text-input">
         <button type="submit">Send Text</button>
-        <p>Number of texts sent</p>
+
+        </form>
+        
+        <p><b>Numbers of texts sent</b> </p>
         <div class="container">
             <hr>
             <div class="counter">0</div>
